@@ -1,6 +1,6 @@
 import s from "./Footer.module.scss";
-import image1 from "./../../assets/icons/FooterCDProjektLogo.svg";
-import image2 from "./../../assets/icons/FooterCyberpunkLogo.svg";
+import image2 from "./../../assets/icons/FooterCDProjektLogo.svg";
+import image1 from "./../../assets/icons/FooterCyberpunkLogo.svg";
 const Footer = () => {
   return (
     <footer className={s.footer}>
@@ -15,8 +15,8 @@ const Footer = () => {
             <p>Политика конфиденциальности</p>
           </div>
         </div>
-        <div className={s.bottom}>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</div>
       </div>
+        <div className={s.bottom}>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</div>
     </footer>
   );
 };
