@@ -7,7 +7,7 @@ const RegistrationSection = () => {
     return (
         <section className={s.registrationSection}>
 
-            <div className={s.backgroundTop}/>
+            <div className={s.backgroundTop} />
 
             <div className={`${s.container} container`}>
 
@@ -35,7 +35,12 @@ const RegistrationSection = () => {
 
                         <input className={s.button} type="submit" />
 
-                        <input className={s.checkbox} type="checkbox" />
+                        <div className={s.groupCheckbox}>
+                            <input className={s.checkbox} type="checkbox" />
+                            <p className={s.checkboxText}>Согласен на обработку персональных данных</p>
+                        </div>
+
+
                     </form>
 
                     <img src={imageConsole} />
@@ -44,7 +49,7 @@ const RegistrationSection = () => {
 
             </div>
 
-            <div className={s.backgroundBottom}/>
+            <div className={s.backgroundBottom} />
 
         </section>
     )

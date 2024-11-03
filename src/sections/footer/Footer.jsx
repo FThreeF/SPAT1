@@ -7,8 +7,8 @@ const Footer = () => {
       <div className={`${s.container} container`}>
         <div className={s.top}>
           <div className={s.image}>
-            <img src={image1} alt="" />
-            <img src={image2} alt="" />
+            <img src={image1} />
+            <img src={image2} />
           </div>
           <div className={s.text}>
             <p>Лицензия</p>
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        <div className={s.bottom}>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</div>
+      <div className={s.bottom}>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</div>
     </footer>
   );
 };
