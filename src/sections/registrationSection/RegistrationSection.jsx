@@ -2,9 +2,12 @@ import s from './RegistrationSection.module.scss';
 import iconAction from '../../assets/icons/RegistrationSectionIconAction.svg'
 import imageConsole from '../../assets/images/RegistrationSectionImageConsole.png';
 
+
 const RegistrationSection = () => {
     return (
         <section className={s.registrationSection}>
+
+            <div className={s.backgroundTop}/>
 
             <div className={`${s.container} container`}>
 
@@ -40,6 +43,9 @@ const RegistrationSection = () => {
                 </div>
 
             </div>
+
+            <div className={s.backgroundBottom}/>
+
         </section>
     )
 }
