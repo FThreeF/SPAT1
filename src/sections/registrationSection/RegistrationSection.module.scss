@@ -1,13 +1,19 @@
-
-
 .registrationSection {
     background-color: black;
     padding: 17px 0 70px 0;
 }
 
+.groupTitle {
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
 .title {
     color: white;
     font-size: 62px;
+    transform: translate(0, 30%);
 }
 
 .text {
@@ -39,6 +45,7 @@
     flex-direction: column;
     align-items: baseline;
     gap: 35px;
+    position: relative;
 }
 
 .input {
@@ -48,13 +55,21 @@
     background-color: transparent;
     outline: none;
     font-size: 18px;
+    color: white;
 }
 
 .file {
     width: 460px;
     height: 120px;
     border: 2px dashed #777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
+
+
+
 
 
 .group {
@@ -67,4 +82,5 @@
 .checkbox {
     color: white;
     border: 2px solid red;
+
 }

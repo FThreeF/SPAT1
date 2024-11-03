@@ -8,11 +8,11 @@ const RegistrationSection = () => {
 
             <div className={`${s.container} container`}>
 
-
-                <h3 className={s.title}>
+                <div className={s.groupTitle}>
                     <img src={iconAction} />
-                    Играй и выигрывай!
-                </h3>
+                    <h3 className={s.title}>Играй и выигрывай!</h3>
+                </div>
+
 
                 <p className={s.text}>Играй в <span className={s.important}>Cyberpunk 2077</span> и получи
                     возможность выиграть консоль <span className={s.important}>Xbox Series X</span> или
@@ -27,12 +27,15 @@ const RegistrationSection = () => {
                     <form className={s.form}>
                         <input className={s.input} placeholder='Как тебя зовут?' />
                         <input className={s.input} placeholder='Твой e-mail' />
+
                         <input className={s.file} type="file" />
+
                         <input className={s.button} type="submit" />
-                        <input className={s.checkbox} type="checkbox" value='sad' />
+
+                        <input className={s.checkbox} type="checkbox" />
                     </form>
 
-                    <img src={imageConsole}/>
+                    <img src={imageConsole} />
 
                 </div>
 
