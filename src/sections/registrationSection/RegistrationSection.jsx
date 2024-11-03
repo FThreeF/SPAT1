@@ -19,7 +19,7 @@ const RegistrationSection = () => {
 
                 <p className={s.text}>Играй в <span className={s.important}>Cyberpunk 2077</span> и получи
                     возможность выиграть консоль <span className={s.important}>Xbox Series X</span> или
-                     <span className={s.important}> Sony PlayStation 5! </span> 
+                    <span className={s.important}> Sony PlayStation 5! </span>
                     Заполни форму ниже и приложи скриншот о
                     покупке игры. Итоги розыгрыша будут
                     подведены 1 февраля. Удачи! ;)</p>
@@ -31,7 +31,11 @@ const RegistrationSection = () => {
                         <input className={s.input} placeholder='Как тебя зовут?' />
                         <input className={s.input} placeholder='Твой e-mail' />
 
-                        <input className={s.file} type="file" />
+                        <div className={s.groupFile}>
+                            <input className={s.file} type="file" />
+                            <p className={s.groupFileText}>Прикрепить скриншот</p>
+                            <p className={s.groupFileText}>.png / .jpg / .pdf</p>
+                        </div>
 
                         <input className={s.button} type="submit" />
 
