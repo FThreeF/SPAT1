@@ -1,13 +1,18 @@
 .descriptionSection {
-  flex-direction: column;
   padding: 70px 0;
+}
+
+.container {
+  flex-direction: column;
 }
 .spantext {
   color: rgba(82, 190, 220);
+  font-weight: bold;
 }
 .title {
   font-size: 62px;
   margin-bottom: 25px;
+  font-family: 'Archangelsk';
 }
 .text {
   font-size: 18px;

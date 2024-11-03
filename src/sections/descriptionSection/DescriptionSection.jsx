@@ -6,7 +6,7 @@ import image3 from "./../../assets/images/DescriptionSectionImage3.png";
 const DescriptionSection = () => {
   return (
     <section className={s.descriptionSection}>
-      <div className={`${s.descriptionSection} container`}>
+      <div className={`${s.container} container`}>
         <h4 className={s.title}>Найт-Сити изменит тебя навсегда!</h4>
         <p className={s.text}>
           <span className={s.spantext}>Cyberpunk 2077 </span>- приключенческая

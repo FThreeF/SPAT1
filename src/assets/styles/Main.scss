@@ -1,4 +1,11 @@
 @import './Null.scss';
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700);
+
+@font-face {
+    font-family: "Archangelsk";
+    src: url('../fonts/ArchangelskFont.ttf');
+
+}
 
 
 #root {
@@ -6,6 +13,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
 
 .container {
@@ -13,4 +21,5 @@
     max-width: 1316px;
     margin: 0 auto;
     position: relative;
+    padding: 0 36px;
 }
