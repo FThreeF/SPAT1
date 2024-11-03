@@ -1,30 +1,35 @@
 .setSection {
-    display: flex;
-    background-color: black;
-    color: white;
+  display: flex;
+  background-color: black;
+  color: white;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: 70px 32px;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 32px;
 }
-.list{
-    gap: 15px;
-    margin-bottom: 70px;
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 70px;
 }
-.title{
-    margin: 0 320px 25px 0;
-font-size: 62px;
+.title {
+  margin: 0 320px 25px 0;
+  font-size: 62px;
+  font-family: Archangelsk;
 }
-.listTitle{
-    color: rgba(82, 190, 220);
-    font-size: 24px;
+.listTitle {
+  color: rgba(82, 190, 220);
+  font-size: 24px;
 }
 .block {
-    display: flex;
-    
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
 }
-.imageGroup{
-    margin-top: 24px;
-    margin-right: 625px;
+.imageGroup {
+  margin-top: 24px;
+  margin-right: 625px;
 }
