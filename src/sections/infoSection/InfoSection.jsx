@@ -17,7 +17,7 @@ const InfoSection = () => {
                     <img src={imagePC} />
                     <div className={s.group}>
                         <img src={iconHp} />
-                        <img src={iconCross} />
+                        <img className={s.iconCross} src={iconCross} />
                         <img src={iconLogo} />
                     </div>
                 </div>

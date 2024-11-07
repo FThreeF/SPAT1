@@ -18,11 +18,12 @@
 }
 
 .container {
+    border: 1px solid red ;
     display: flex;
-    max-width: 1316px;
+    max-width: 1350px;
     margin: 0 auto;
     position: relative;
-    padding: 0 36px;
+    padding: 0 37px;
     overflow: hidden;
 }
 

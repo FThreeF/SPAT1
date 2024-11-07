@@ -17,13 +17,17 @@
 .text {
   font-size: 18px;
   margin-bottom: 70px;
+  max-width: 952px;
 }
-.image {
+.groupImage {
   display: flex;
-  gap: 32px;
+  justify-content: space-between;
+  
+  
 }
 .imageleft {
   display: flex;
   gap: 32px;
   flex-direction: column;
+
 }

@@ -8,31 +8,36 @@ import imagegrop from "./../../assets/icons/SetSectionIconGroupPlatform.svg";
 const SetSection = () => {
   return (
     <section className={s.setSection}>
-      <img src={image} />
-      <div className={s.container}>
-        <p className={s.title}>Купить игру Cyberpunk 2077</p>
-        <div className={s.list}>
-          <p className={s.listTitle}>В комплект входит:</p>
+      <div className={`${s.container} container`}>
+        <div className={s.group}>
+        <img className={s.image} src={image} />
+          <div className={s.groupText}>
 
-          <div className={s.block}>
-            <img src={image1} />
-            <p className={s.listText}>Футляр с игровыми дисками</p>
+          <p className={s.title}>Купить игру Cyberpunk 2077</p>
+          <div className={s.list}>
+            <p className={s.listTitle}>В комплект входит:</p>
+
+            <div className={s.block}>
+              <img src={image1} />
+              <p className={s.listText}>Футляр с игровыми дисками</p>
+            </div>
+            <div className={s.block}>
+              <img src={image2} />
+              <p className={s.listText}>
+                Футляр с кодом для загрузки игры и дисками (pc)
+              </p>
+            </div>
+            <div className={s.block}>
+              <img src={image3} />
+              <p className={s.listText}>
+                Справочник с информацией об игровом мире
+              </p>
+            </div>
           </div>
-          <div className={s.block}>
-            <img src={image2} />
-            <p className={s.listText}>
-              Футляр с кодом для загрузки игры и дисками (pc)
-            </p>
-          </div>
-          <div className={s.block}>
-            <img src={image3} />
-            <p className={s.listText}>
-              Справочник с информацией об игровом мире
-            </p>
+          <p className={s.listTitle}>Выберите платформу:</p>
+          <img className={s.imageGroup} src={imagegrop} />
           </div>
         </div>
-        <p className={s.listTitle}>Выберите платформу:</p>
-        <img className={s.imageGroup} src={imagegrop} />
       </div>
     </section>
   );

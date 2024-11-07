@@ -1,37 +1,60 @@
 .setSection {
-  display: flex;
+
   background-color: black;
   color: white;
-  align-items: center;
-  justify-content: center;
+
+
 }
+
 .container {
   display: flex;
-  flex-direction: column;
-  margin: 70px 32px;
+  justify-content: end;
+  overflow: visible;
 }
+
+.image {
+  position: absolute;
+  left: -16px;
+  transform: translate(-100%, 0);
+
+}
+
+.group {
+  position: relative;
+  width: 50%;
+  padding-left: 16px;
+}
+
+.groupText {
+  padding: 70px 0;
+}
+
 .list {
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-bottom: 70px;
 }
+
 .title {
-  max-width: 624px;
-  margin: 0 333px 25px 0;
+
   font-size: 62px;
   font-family: 'Archangelsk';
+  margin-bottom: 25px;
 }
+
 .listTitle {
   color: rgba(82, 190, 220);
   font-size: 24px;
 }
+
 .block {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 10px;
 }
+
 .imageGroup {
   margin-top: 24px;
   margin-right: 625px;

@@ -17,7 +17,7 @@ const DescriptionSection = () => {
           исследуя открытый мир, где твои поступки влияют на ход сюжета и всё,
           что тебя окружает.
         </p>
-        <div className={s.image}>
+        <div className={s.groupImage}>
           <div className={s.imageleft}>
             <img src={image1} alt="" />
             <img src={image2} alt="" />
