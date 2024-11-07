@@ -66,3 +66,13 @@
     display: flex;
     gap: 36px;
 }
+
+.imagePC {
+    width: 624px;
+}
+
+@media (max-width: 1300px) {
+    .imagePC {
+        width: 420px;
+    }
+}

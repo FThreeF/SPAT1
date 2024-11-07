@@ -14,7 +14,7 @@ const InfoSection = () => {
         <section className={s.infoSection}>
             <div className={`${s.container} container`}>
                 <div className={s.block}>
-                    <img src={imagePC} />
+                    <img className={s.imagePC} src={imagePC} />
                     <div className={s.group}>
                         <img src={iconHp} />
                         <img className={s.iconCross} src={iconCross} />
