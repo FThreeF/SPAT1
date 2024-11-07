@@ -19,10 +19,10 @@ const DescriptionSection = () => {
         </p>
         <div className={s.groupImage}>
           <div className={s.imageleft}>
-            <img src={image1} alt="" />
-            <img src={image2} alt="" />
+            <img className={s.image} src={image1} alt="" />
+            <img className={s.image} src={image2} alt="" />
           </div>
-          <img src={image3} alt="" />
+          <img className={s.image2} src={image3} alt="" />
         </div>
       </div>
     </section>

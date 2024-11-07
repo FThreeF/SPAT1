@@ -22,12 +22,20 @@
 .groupImage {
   display: flex;
   justify-content: space-between;
-  
-  
 }
 .imageleft {
   display: flex;
   gap: 32px;
   flex-direction: column;
 
+}
+
+.image {
+  clip-path: polygon(11% 0, 100% 0, 100% 73%, 89% 100%, 0 100%, 0 27%);
+}
+
+
+.image2 {
+  max-width: 100%;
+  clip-path: polygon(8% 0, 100% 0, 100% 83%, 92% 100%, 0 100%, 0 17%);
 }
