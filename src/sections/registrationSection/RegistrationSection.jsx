@@ -1,16 +1,19 @@
 import s from './RegistrationSection.module.scss';
 import iconAction from '../../assets/icons/RegistrationSectionIconAction.svg'
 import imageConsole from '../../assets/images/RegistrationSectionImageConsole.png';
-
+import iconToggle from '../../assets/icons/RegistrationSectionIconToggle.svg';
+import { useState } from 'react';
 
 const RegistrationSection = () => {
+
+    const [checkBox, setCheckBox] = useState(false);
+
     return (
         <section className={s.registrationSection}>
 
             <div className={s.backgroundTop} />
 
             <div className={`${s.container} container`}>
-
                 <div className={s.groupTitle}>
                     <img src={iconAction} />
                     <h3 className={s.title}>Играй и выигрывай!</h3>
@@ -39,8 +42,13 @@ const RegistrationSection = () => {
 
                         <input className={s.button} type="submit" />
 
-                        <div className={s.groupCheckbox}>
-                            <input className={s.checkbox} type="checkbox" />
+                        <div className={s.groupCheckbox} onClick={() => setCheckBox(!checkBox)}>
+
+                            <div className={s.checkBox}>
+                                <img  className={[s.toggle, (checkBox) ? ' ' : s.toggleOff].join(' ')} src={iconToggle} />
+
+                            </div>
+
                             <p className={s.checkboxText}>Согласен на обработку персональных данных</p>
                         </div>
 
