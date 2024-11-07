@@ -6,11 +6,6 @@
     padding: 70px 0;
 }
 
-.block:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 
 
@@ -20,6 +15,16 @@
     flex-direction: column;
     align-items: baseline;
 }
+
+.block:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 
 .title {
     font-size: 62px;
@@ -34,6 +39,7 @@
 .description {
     font-size: 18px;
     margin-top: 25px;
+    line-height: 34px;
 }
 
 .list {
@@ -62,10 +68,44 @@
 
 }
 
+@media (max-width: 1300px) {
+    .group {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .block:first-child {
+        justify-content: center;
+        gap: 24px;
+    }
+
+}
+
+
 .container {
     display: flex;
     gap: 36px;
 }
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .block {
+        width: 100%;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+
+    .title {
+        font-weight: normal;
+    }
+}
+
+
 
 .imagePC {
     width: 624px;
@@ -75,4 +115,30 @@
     .imagePC {
         width: 420px;
     }
+}
+
+
+@media (max-width: 520px) {
+    .iconHP, .iconCross {
+        width: 40px;
+    }
+
+    .iconLogo {
+        width: 175px;
+    }
+}
+
+@media (max-width: 460px) {
+    .imagePC{
+        width: 296px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .text, .description {
+        font-size: 16px;
+    }
+    
 }
