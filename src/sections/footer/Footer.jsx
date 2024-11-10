@@ -7,8 +7,8 @@ const Footer = () => {
       <div className={`${s.container} container`}>
         <div className={s.top}>
           <div className={s.image}>
-            <img src={image1} />
-            <img src={image2} />
+            <img className={s.image1} src={image1} />
+            <img className={s.image2} src={image2} />
           </div>
           <div className={s.text}>
             <p>Лицензия</p>

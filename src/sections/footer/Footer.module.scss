@@ -52,3 +52,19 @@
     color: white;
     font-size: 12px;
 }
+
+
+@media (max-width: 340px) {
+        
+    .image1 {
+        width: 200px;
+    }
+    .image2 {
+        width: 116px;
+    }
+
+    .image {
+        gap: 25px;
+    }
+}
+

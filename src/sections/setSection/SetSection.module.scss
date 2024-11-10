@@ -25,6 +25,43 @@
   padding-left: 16px;
 }
 
+@media (max-width: 1024px) {
+  .group {
+    width: 68%;
+
+  }
+}
+
+@media (max-width: 750px) {
+  .group {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .image {
+    position: relative;
+    transform: none;
+    left: -17px;
+    
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+  .image {
+    width: 110%;
+    object-fit: cover;
+    height: 198px;
+  }
+}
+
 .groupText {
   padding: 70px 0;
 }
@@ -43,6 +80,12 @@
   margin-bottom: 25px;
 }
 
+@media (max-width: 400px) {
+  .title {
+    font-size: 30px;
+  }
+}
+
 .listTitle {
   color: rgba(82, 190, 220);
   font-size: 24px;
@@ -58,4 +101,27 @@
 .imageGroup {
   margin-top: 24px;
   margin-right: 625px;
+}
+
+@media (max-width: 320px) {
+  .listTitle {
+    font-size: 20px;
+  }
+
+  .listText {
+    font-size: 16px;
+  }
+}
+
+@media (max-widtH: 500px) {
+  .imageGroup {
+    width: 100%;
+    object-fit: cover;
+  }
+  .groupText {
+    padding: 40px 0 70px 0;
+  }
+  .list {
+    margin-bottom: 40px;
+  }
 }

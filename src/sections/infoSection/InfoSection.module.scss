@@ -139,6 +139,10 @@
 
     .text, .description {
         font-size: 16px;
+        
     }
-    
+    .block:last-child {
+        padding: 0 12px;
+    }
+
 }
